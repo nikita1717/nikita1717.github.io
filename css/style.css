@@ -3,31 +3,35 @@
 }
 .container{
     max-width: 1000px;
+    min-height: 100vh;
     font-size: 25px;
     background-color: white;
     padding: 0px;
-    height: 100%;
     box-shadow:  0px 0px 5px lightgray;
 }
 .buttonIcon{
     margin-left: auto;
 }
-.main{
+body {
     background-color: rgb(183, 186, 196);
+    height: 100%;
 }
 .indexImg{
     width: 60%;
+    height: 100%;
     margin: 20px auto;
 }
 .mainInfo{
     padding: 0px 60px;
 }
 .secrImg{
-    margin: 20px auto;
+    padding: 60px;
+    margin: 0px auto;
     width: 80%;
 }
 .secrText{
-    padding: 0px 60px;
+    font-size: 30px;
+    padding: 20px 60px;
 }
 .textBlock{
     margin: 20px 20px;
@@ -37,4 +41,25 @@
 }
 .textContainer{
     padding: 20px 60px;
+}
+.aboutImg{
+    min-width: 300px;
+    height: 100%;
+}
+.aboutText{
+    width: 60%;
+}
+.lastAboutText{
+    margin: auto 10px;
+}
+.nav-link{
+    font-size: 25px;
+    margin: 10px 10px;
+    display: block;
+}
+.navbar{
+    box-shadow: 0px 0px 5px lightgray;
+}
+li{
+    margin: 15px 10px;
 }

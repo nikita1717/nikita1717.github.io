@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Главная</title>
     <!-- Yandex.Metrika counter -->
@@ -24,31 +23,27 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/90642002" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </head>
-<body class="main">
+<body>
     <div class="container">
-        <nav class="navigation navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <button class="buttonIcon navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link disabled" href="index.html">Главная</a>
-                  <a class="nav-link" href="info.html">Безопасность</a>
-                  <a class="nav-link" href="about.html">Польза для малого бизнеса</a>
-                  <a class="nav-link" href="history.html">Историческая справка</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <div class="row">
-            <img class="indexImg" src="img/indexImg.png" alt="">
-            <ul class="mainInfo">
-                <li>Облачные вычисления — модель обеспечения удобного сетевого доступа по требованию к некоторому общему фонду конфигурируемых вычислительных ресурсов (например, сетям передачи данных, серверам, устройствам хранения данных, приложениям и сервисам — как вместе, так и по отдельности), которые могут быть оперативно предоставлены и освобождены с минимальными эксплуатационными затратами или обращениями к провайдеру.</li>
-                <li>Потребители облачных вычислений могут значительно уменьшить расходы на инфраструктуру информационных технологий (в краткосрочном и среднесрочном планах) и гибко реагировать на изменения вычислительных потребностей, используя свойства эластичных вычислений (англ. elastic computing) облачных услуг.</li>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a>Меню</a>
+          <div class="navbar-dropdown">
+            <a class="nav-link" href="index.html">Главная</a>
+            <a class="nav-link" href="info.html">Безопасность</a>
+            <a class="nav-link" href="about.html">Польза для малого бизнеса</a>
+            <a class="nav-link" href="history.html">Историческая справка</a>
+          </div>
+        </div>
+      </nav>
+          <div class="columns is-mobile is-multiline">
+            <img class="indexImg column is-9" src="img/indexImg.png" alt="">
+            <div class="column">
+              <ul class="mainInfo">
+                  <li>Облачные вычисления — модель обеспечения удобного сетевого доступа по требованию к некоторому общему фонду конфигурируемых вычислительных ресурсов (например, сетям передачи данных, серверам, устройствам хранения данных, приложениям и сервисам — как вместе, так и по отдельности), которые могут быть оперативно предоставлены и освобождены с минимальными эксплуатационными затратами или обращениями к провайдеру.</li>
+                  <li>Потребители облачных вычислений могут значительно уменьшить расходы на инфраструктуру информационных технологий (в краткосрочном и среднесрочном планах) и гибко реагировать на изменения вычислительных потребностей, используя свойства эластичных вычислений (англ. elastic computing) облачных услуг.</li>
             </ul>
+            </div>
           </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
 </html>
